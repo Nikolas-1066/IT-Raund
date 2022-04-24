@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="460.0" prefWidth="747.0" style="-fx-background-color: #F4F7FB;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.itraund.Controller">
+   <children>
+      <AnchorPane layoutX="200.0" prefHeight="68.0" prefWidth="548.0" style="-fx-background-color: #fff;">
+         <effect>
+            <DropShadow color="#0000001f" />
+         </effect>
+         <children>
+            <Button fx:id="compBtn" layoutX="28.0" layoutY="20.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="153.0" style="-fx-background-color: #fafafa; -fx-border-color: #ccc; -fx-border-radius: 5px;" stylesheets="@styles/main.css" text="Компании">
+               <font>
+                  <Font name="Montserrat Regular" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="musicBtn" layoutX="192.0" layoutY="20.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="165.0" style="-fx-background-color: #fafafa; -fx-border-color: #ccc; -fx-border-radius: 5px;" stylesheets="@styles/main.css" text="Музыканты">
+               <font>
+                  <Font name="Montserrat Regular" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="mmaBtn" layoutX="369.0" layoutY="20.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="165.0" style="-fx-background-color: #fafafa; -fx-border-color: #ccc; -fx-border-radius: 5px;" stylesheets="@styles/main.css" text="Бойцы">
+               <font>
+                  <Font name="Montserrat Regular" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="460.0" prefWidth="200.0" style="-fx-background-color: #fff;">
+         <effect>
+            <DropShadow color="#00000040" />
+         </effect>
+         <children>
+            <Button fx:id="apple" layoutX="14.0" layoutY="130.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="175.0" style="-fx-background-color: #fafafa; -fx-border-color: #ccc; -fx-border-radius: 5px;" stylesheets="@styles/main.css" text="Apple Inc.">
+               <font>
+                  <Font name="Montserrat Regular" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ImageView fitHeight="97.0" fitWidth="82.0" layoutX="14.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/logo.png" />
+               </image>
+            </ImageView>
+            <Text fill="#b2b2b2" layoutX="106.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Программа справочник" textAlignment="CENTER" wrappingWidth="82.00000447034836">
+               <font>
+                  <Font name="Montserrat Bold" size="11.0" />
+               </font>
+            </Text>
+            <Text fill="#3c3c3c" layoutX="107.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Billionaires">
+               <font>
+                  <Font name="Panton Black Caps" size="17.0" />
+               </font>
+            </Text>
+            <Separator focusTraversable="false" layoutX="14.0" layoutY="110.0" prefHeight="3.0" prefWidth="175.0" style="-fx-background-color: #ccc; -fx-border-style: solid; -fx-border-color: #333;">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Separator>
+            <Button fx:id="micro" layoutX="14.0" layoutY="169.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="175.0" style="-fx-background-color: #fafafa; -fx-border-color: #ccc; -fx-border-radius: 5px;" stylesheets="@styles/main.css" text="Microsoft">
+               <font>
+                  <Font name="Montserrat Regular" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="saudi" layoutX="14.0" layoutY="209.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="175.0" style="-fx-background-color: #fafafa; -fx-border-color: #ccc; -fx-border-radius: 5px;" stylesheets="@styles/main.css" text="Saudi Aramco">
+               <font>
+                  <Font name="Montserrat Regular" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="alpha" layoutX="14.0" layoutY="252.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="175.0" style="-fx-background-color: #fafafa; -fx-border-color: #ccc; -fx-border-radius: 5px;" stylesheets="@styles/main.css" text="Alphabet Inc.">
+               <font>
+                  <Font name="Montserrat Regular" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="amazon" layoutX="14.0" layoutY="294.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="175.0" style="-fx-background-color: #fafafa; -fx-border-color: #ccc; -fx-border-radius: 5px;" stylesheets="@styles/main.css" text="Amazon Inc.">
+               <font>
+                  <Font name="Montserrat Regular" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="exitBtn" layoutX="14.0" layoutY="410.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="175.0" style="-fx-background-color: #f7746a; -fx-border-color: #f7746a; -fx-border-radius: 5px;" stylesheets="@styles/main.css" text="Закрыть программу" textFill="WHITE">
+               <font>
+                  <Font name="Montserrat Regular" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Separator focusTraversable="false" layoutX="14.0" layoutY="396.0" prefHeight="3.0" prefWidth="175.0" style="-fx-background-color: #fafafa; -fx-border-style: solid; -fx-border-color: #ccc; -fx-border-width: 0;">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Separator>
+         </children>
+      </AnchorPane>
+      <Text id="who" fx:id="name" fill="#434343" layoutX="196.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Apple Inc." wrappingWidth="557.0">
+         <font>
+            <Font size="53.0" />
+         </font>
+      </Text>
+      <Text id="money" fx:id="money" layoutX="230.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$2 780 млрд." textAlignment="CENTER" wrappingWidth="119.00000447034836">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text id="about" fx:id="about" layoutX="227.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="В январе 2022 года рыночная капитализация Apple превысила порог в 2.7 триллиона долларов, и сегодня компания занимает первое место как самая дорогая компания в мире." wrappingWidth="494.8199462890625">
+         <font>
+            <Font name="Cera Pro Regular" size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
